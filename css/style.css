@@ -112,6 +112,21 @@
   letter-spacing: 2px;
 }
 
+.slider-text {
+	visibility: hidden;
+	font-size: 5em;
+	text-align: left;
+	text-transform: uppercase;
+	margin-left: -3em;
+	font-family: GothamBold;
+}
+
+.slider-text span {
+	visibility: hidden;
+	text-transform: none;
+	font-size: 0.5em;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 01 - RESET STYLES */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
