@@ -10,12 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CLora:400,400i,700,700i%7CTinos:700" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/scrolling-nav.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/swiper.css" rel="stylesheet" type="text/css" />
     <link href="css/simplelightbox.css" rel="stylesheet" type="text/css">
-    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet" type="text/css" />
     <!-- <link href="css/loader.css" rel="stylesheet" type="text/css" /> -->
     <!--[if lt IE 9]>
         <link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
@@ -29,6 +30,46 @@
 </head>
 
 <body class="bloom index02">
+  <div id="page-top"></div>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll logo-text" href="#page-top"><strong>Mark</strong>Rodriguez</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="page-scroll" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#welcome">Welcome</a>
+                  <li>
+                      <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#services">Services</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#rates">Rates</a>
+                  <li>
+                      <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
     <div class="is-mobile"></div>
 
 <!-- LOADER -->
@@ -140,39 +181,6 @@
 
     <div id="content-block">
         <!-- HEADER -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo-text" href="#"><strong>Mark</strong>Rodriguez</a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a class="header-link" href="#who-we-are" data-link="#who-we-are">About</a>
-                        </li>
-                        <li>
-                            <a class="header-link" href="#">Services</a>
-                        </li>
-                        <li>
-                            <a class="header-link" href="#">Rates</a>
-                        </li>
-                        <li>
-                            <a class="header-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
 
         <!-- FIXED-MENU -->
         <div class="fixed-menu small">
@@ -186,6 +194,7 @@
 
     <!-- MAIN -->
         <div class="left-right scroll-animate">
+          <div id="welcome"></div>
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-6 text-center">
@@ -214,6 +223,7 @@
         </div>
 
         <div class="left-right scroll-animate">
+          <div id="about"></div>
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-6 text-center no-padding-sm">
@@ -373,6 +383,7 @@
         </div>
 
         <div class="left-right scroll-animate">
+          <div id="services"></div>
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-6">
@@ -467,6 +478,7 @@
 
 
         <div class="left-right scroll-animate">
+          <div id="rates"></div>
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-6 text-center to-left no-padding-xs">
@@ -625,6 +637,7 @@
 
 
         <div class="left-right scroll-animate">
+          <div id="contact"></div>
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-6">
@@ -797,6 +810,7 @@
             </div>
         </div>
         <a class="button-close"></a>
+
     </div>
 
     <!-- jQuery -->
@@ -831,6 +845,9 @@
     <!-- CONTACT -->
     <script src="js/contact.form.js"></script>
     <script src="js/subscribe.form.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
 </html>
