@@ -112,6 +112,23 @@
   letter-spacing: 2px;
 }
 
+.logo-text {
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.header-link{
+	text-transform: uppercase;
+}
+
+.logo-text strong{
+	color:#fff;
+	font-family: GothamBold;
+}
+
+.logo-text a{
+	color:#fff;
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 01 - RESET STYLES */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
