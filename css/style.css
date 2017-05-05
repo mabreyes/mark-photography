@@ -2211,8 +2211,8 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 
 /*tupografy*/
-.bloom .h2-small, .bloom .h3-big, .bloom .h1, .bloom .h2,.bloom .h3,.bloom .h4,.bloom .h5,.bloom .h6{font-family: 'Roboto Slab', serif; margin: 0px; padding: 0px;}
-.bloom .h1{font-size: 40px; line-height: 46px; color: #222222;}
+.bloom .h2-small, .bloom .h3-big, .bloom .h1, .bloom .h2,.bloom .h3,.bloom .h4,.bloom .h5,.bloom .h6{font-family: 'GothamBold', serif; margin: 0px; padding: 0px;}
+.bloom .h1{font-size: 40px; line-height: 46px; color: #222222; font-family: GothamBold;}
 .bloom .h1 span{color: #95a55e;}
 .bloom .h2{font-size: 32px; line-height: 32px; color: white;}
 .bloom .h2-small{font-size: 28px; line-height: 32px; color: #222;}
